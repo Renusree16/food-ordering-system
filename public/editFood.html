@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Edit Food</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+🍔 Food Ordering
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="viewfood.html">View Food</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="form-container">
+
+<h1>Edit Food</h1>
+
+<form id="editForm">
+
+<label>Food Name</label>
+<input type="text" id="foodname" required>
+
+<label>Category</label>
+
+<select id="category">
+
+<option value="Veg">Veg</option>
+<option value="Non Veg">Non Veg</option>
+
+</select>
+
+<label>Price</label>
+<input type="number" id="price" required>
+
+<label>Description</label>
+<textarea id="description"></textarea>
+
+<label>Available</label>
+
+<select id="available">
+
+<option value="1">Yes</option>
+<option value="0">No</option>
+
+</select>
+
+<button type="submit">
+
+Update Food
+
+</button>
+
+</form>
+
+</div>
+
+<script src="editfood.js"></script>
+<footer>
+
+<p>
+
+© 2026 Food Ordering Management System
+
+</p>
+
+</footer>
+</body>
+
+</html>
